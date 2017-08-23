@@ -35,6 +35,7 @@ var config = {
 | `key`     | *Required* Google api key. See below for help.
 | `lat`     | *Required* Latitude used to center the map. See below for help. <br><br>**Type:** `float`
 | `lng`     | *Required* Longitude used to center the map. See below for help. <br><br>**Type:** `float`
+| `zoom`    | *Required* Zoom size in double digits. eg. 04, 11, 15 etc. See below for help. <br><br>**Type:** `float`
 | `height`  | *Required* Height of the map. <br><br>**Type:** `string` (pixels)
 | `width`   | *Required* Width of the map. <br><br>**Type:** `string` (pixels)
 
