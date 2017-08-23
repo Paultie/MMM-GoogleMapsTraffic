@@ -20,6 +20,7 @@ var config = {
                 key: 'YOUR_KEY',
                 lat: 37.8262306,
                 lng: -122.2920096,
+                zoom: 06,
                 height: '300px',
                 width: '300px'
             }
