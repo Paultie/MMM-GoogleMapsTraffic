@@ -4,6 +4,7 @@
  * Module: MMM-GoogleMapsTraffic
  *
  * By Victor Mora
+ * added the zoom function by Paultie
  * MIT Licensed.
  */
 
@@ -12,6 +13,7 @@ Module.register("MMM-GoogleMapsTraffic", {
 	getDom: function() {
         var lat = this.config.lat;
         var lng = this.config.lng;
+	var zoom = this.config.zoom;	//added zoom function
 
 		var wrapper = document.createElement("div");
         wrapper.setAttribute("id", "map");
@@ -26,7 +28,7 @@ Module.register("MMM-GoogleMapsTraffic", {
 
         script.onload = function () {
             var map = new google.maps.Map(document.getElementById("map"), {
-            	zoom: 13,
+            	zoom: zoom, //added zoom function
             	center: {
             		lat: lat,
             		lng: lng
